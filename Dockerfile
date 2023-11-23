@@ -8,7 +8,7 @@ RUN apt-get update && \
     
 
 # 设置 root 用户的密码为 'root'
-RUN echo 'root:1381ni' | chpasswd
+#RUN echo 'root:1381ni' | chpasswd
 
 # 暴露 22 端口
 EXPOSE 22
