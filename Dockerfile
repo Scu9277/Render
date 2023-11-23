@@ -1,5 +1,5 @@
 # 使用 Ubuntu 22.04 作为基础镜像
-FROM debian:latest
+FROM pch18/baota:latest
 
 # 安装 Shellinabox
 RUN apt-get update && \
